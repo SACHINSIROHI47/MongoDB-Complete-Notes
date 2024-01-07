@@ -1,0 +1,32 @@
+first download mongodb or mongosh software from website
+https://www.mongodb.com/try/download/shell
+https://www.mongodb.com/try/download/community
+first install mongodb 
+
+then paste mongosh downloaded file into below location
+
+then set path to enverionment variable
+C:\Program Files\mongoshshell\bin 
+C:\Program Files\MongoDB\Server\6.0\bin
+
+if show problem
+Error: connect ECONNREFUSED 127.0.0.1:27017
+type on cmd =mongod
+then after run on cmd= mongosh
+
+C:\Data\db
+
+When you run this command you will get an error i.e. 
+C:/data/db/ not found. 
+
+
+MongoDB Command
+
+show dbs
+use Meerut
+db.city.insert({State:"MP"})
+db.city.find()
+
+window 7 running command
+1) first cmd terminal= mongod
+2) second cmd termial= mongo
